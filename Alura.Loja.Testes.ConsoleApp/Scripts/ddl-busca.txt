@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[Busca] (
+    [CodigoDeBarras] INT  NOT NULL,
+    [CodigoDeFabricacao] INT,
+    [Tabela] NVARCHAR(10),
+    CONSTRAINT [PK_Produtos] PRIMARY KEY ([CodigoDeBarras])
+);
